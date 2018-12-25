@@ -292,15 +292,20 @@ BUTTONS
 }
 
 .btn-primary {
-  background: #2FE7B1;
-  color: #1B2733;
+
+  background: -moz-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  background: -webkit-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  background: -ms-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  color: #fff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
   -webkit-transform: translate(1px, -1px);
-          transform: translate(1px, -1px);
-  background: #2FE7B1;
-  color: #1B2733;
+  transform: translate(1px, -1px);
+  background: -moz-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  background: -webkit-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  background: -ms-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  color: #fff;
   -webkit-box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
           box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
 }
@@ -713,7 +718,10 @@ NAVIGATION BAR
   height: 40px;
   border-radius: 50%;
   display: inline-block;
-  background: #2FE7B1;
+  background: -webkit-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  background: -moz-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  background: -webkit-linear-gradient(0deg, #6F1880 0%, #403999 100%);
+  background: -ms-linear-gradient(0deg, #6F1880 0%, #403999 100%);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   position: absolute;
