@@ -1104,7 +1104,7 @@ function validateEmail(emailField){
 document.getElementById('invite').addEventListener('mousedown',function(){
   var email = document.getElementById('intro-email');
   if (validateEmail(email)){
-    document.getElementById('submit2').innerHTML = "Inviting ...";  
+    document.getElementById('invite').innerHTML = "Inviting ...";  
     sendpost(email.value);
     email.value = "";
     
