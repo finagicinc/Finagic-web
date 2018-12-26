@@ -299,6 +299,24 @@ BUTTONS
   color: #fff;
 }
 
+.swal-button {
+  -webkit-transform: translate(1px, -1px);
+  transform: translate(1px, -1px);
+  background: -moz-linear-gradient(0deg, #6F1880 0%, #403999 100%) !important;
+  background: -webkit-linear-gradient(0deg, #6F1880 0%, #403999 100%) !important;
+  background: -ms-linear-gradient(0deg, #6F1880 0%, #403999 100%) !important;
+}
+
+.swal-button:hover {
+  -webkit-transform: translate(1px, -1px);
+  background: -moz-linear-gradient(0deg, #6F1880 0%, #403999 100%) !important;
+  background: -webkit-linear-gradient(0deg, #6F1880 0%, #403999 100%) !important;
+  background: -ms-linear-gradient(0deg, #6F1880 0%, #403999 100%) !important;
+  color: #fff;
+  -webkit-box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
+          box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
+}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
   -webkit-transform: translate(1px, -1px);
   transform: translate(1px, -1px);

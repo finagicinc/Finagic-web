@@ -119,10 +119,13 @@ PRELOADER
         <li class="nav-item">
           <a class="nav-link" href="#faqs">FAQs</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blogs/">Blog</a>
+        </li>
       </ul>
       <div class="custom-menu__right">
         <!-- <a href="login.html" class="btn btn-default">Login</a> -->
-        <a href="#intro-email" class="btn btn-primary btn-pills">Get An Invite</a>
+        <a href="#hero" id="start_free" class="btn btn-primary btn-pills">Get An Invite</a>
         <!-- <p class="assistive-text d-md-none">Start free - No credit card required</p> -->
       </div>
     </div>
@@ -150,7 +153,7 @@ HERO SECTION
               <div class="input-group">
                 <label for="intro-email" class="sr-only">Email</label>
                 <input type="email" class="form-control" id="intro-email" placeholder="Enter your email">
-                <button type="submit" class="btn btn-secondary">Get An Invite</button>
+                <button type="submit" id="invite" class="btn btn-secondary">Get An Invite</button>
               </div>
               <span class="assistive-text">Start free account - no credit card needed</span>
             </form>
@@ -739,31 +742,15 @@ team WITH SLIDER
                     <img src="https://www.finagic.com/blog/wp-content/uploads/2018/07/11225993_10102124555036598_4215317591751223051_n.jpg" alt="Image">
                   </div>
                   <!-- REPLACE WITH YOUR VIDEO LINK -->
-                  <a href="https://www.youtube.com/watch?v=7e90gBu4pas"
-                     class="btn btn-has-icon btn-lg btn-light btn-pills js-video-modal-trigger">
-                    Watch the story
-                    <span class="u-icon u-icon__sm u-icon__circle">
-                        <i class="icon ion-ios-play"></i>
-                      </span>
-                  </a>
+                  
                 </div>
               </div>
               <div class="col-md-8">
                 <div class="testimonial-content">
                   <div class="testimonial-item__context">
                     <ul class="social-list__inline mt-10">
-                      <li>
-                        <a href="#">
-                          <i class="icon ion-logo-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="icon ion-logo-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
+                      
+                        <a href="https://www.linkedin.com/in/kunalchopra28/" target="_blank">
                           <i class="icon ion-logo-linkedin"></i>
                         </a>
                       </li>
@@ -787,36 +774,12 @@ team WITH SLIDER
                     <img src="https://www.finagic.com/blog/wp-content/uploads/2018/07/samir.jpg" alt="Image">
                   </div>
                   <!-- REPLACE WITH YOUR VIDEO LINK -->
-                  <a href="https://www.youtube.com/watch?v=7e90gBu4pas"
-                     class="btn btn-has-icon btn-lg btn-light btn-pills js-video-modal-trigger">
-                    Watch the story
-                    <span class="u-icon u-icon__sm u-icon__circle">
-                          <i class="icon ion-ios-play"></i>
-                        </span>
-                  </a>
+                  
                 </div>
               </div>
               <div class="col-md-8">
                 <div class="testimonial-content">
-                  <div class="testimonial-item__context">
-                    <ul class="social-list__inline mt-10">
-                      <li>
-                        <a href="#">
-                          <i class="icon ion-logo-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="icon ion-logo-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="icon ion-logo-linkedin"></i>
-                        </a>
-                      </li>
-                    
-                    </ul>
+                  <div class="testimonial-item__context">                   
                     <p>Samir Kapoor serves as the CEO of Finagic. In his role, Samir leads the entire company to achieve its business objectives. Samir, specifically focuses on areas of Business Development, Sales and Partnerships. Samir is also the founder and managing partner of Trillium Wealth Management in The United Arab Emirates. He has spent over 20 years in financial services and has a MBA from The University of Mumbai.</p>
                   </div>
                   <div class="testimonial-meta">
@@ -835,13 +798,7 @@ team WITH SLIDER
                     <img src="https://www.finagic.com/blog/wp-content/uploads/2018/07/SumanDeyPicture.jpg" alt="Image">
                   </div>
                   <!-- REPLACE WITH YOUR VIDEO LINK -->
-                  <a href="https://www.youtube.com/watch?v=7e90gBu4pas"
-                     class="btn btn-has-icon btn-lg btn-light btn-pills js-video-modal-trigger">
-                    Watch the story
-                    <span class="u-icon u-icon__sm u-icon__circle">
-                          <i class="icon ion-ios-play"></i>
-                        </span>
-                  </a>
+                 
                 </div>
               </div>
               <div class="col-md-8">
@@ -849,17 +806,17 @@ team WITH SLIDER
                   <div class="testimonial-item__context">
                     <ul class="social-list__inline mt-10">
                       <li>
-                        <a href="#">
+                        <a href="https//www.facebook.com/mr.jarves">
                           <i class="icon ion-logo-facebook"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://twitter.com/deysuman">
                           <i class="icon ion-logo-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/deysuman/">
                           <i class="icon ion-logo-linkedin"></i>
                         </a>
                       </li>
@@ -986,8 +943,8 @@ CALL TO ACTION MODULE
       <div class="callout-footer ml-lg-auto">
         <form action="#">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Enter your email">
-            <button type="submit" class="btn btn-primary">Get An Invite</button>
+            <input type="text" id="email" class="form-control" placeholder="Enter your email">
+            <button type="submit" id="submit2" class="btn btn-primary">Get An Invite</button>
           </div>
         </form>
         <p class="d-block text-sm">No credit card required</p>
@@ -1048,6 +1005,9 @@ FOOTER
                 <li>
                   <a href="#faq">FAQs</a>
                 </li>
+                <li>
+                  <a href="/blog/">Blog</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -1097,6 +1057,65 @@ FOOTER
 <script src="js/vendors/swiper.min.js"></script>
 <script src="js/vendors/owl.carousel.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/sweetalert.min.js"></script>
+
+<script type="text/javascript">
+
+$("#start_free").click(function(e) {
+    e.preventDefault();
+    var aid = $(this).attr("href");
+    $('html,body').animate({scrollTop: $(aid).offset().top},'3');
+});
+
+function validateEmail(emailField){
+        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+        if (reg.test(emailField.value) == false) 
+        {
+            return false;
+        }
+
+        return true;
+
+}
+
+var ajax = new XMLHttpRequest();
+	ajax.open( "POST", "http://finagicapp.co/api/invite_user" );
+	ajax.onreadystatechange = function() {
+		if(ajax.readyState == 4 && ajax.status == 200) {
+
+			swal("Thanks", "We will notify you when Finagic is live. In the meantime, reach out to us at hello@finagic.com for any questions you may have.", "success");
+
+		}
+	}
+
+
+document.getElementById('invite').addEventListener('mousedown',function(){
+  var email = document.getElementById('intro-email');
+  if (validateEmail(email)){
+      
+    ajax.send('email='+email.value);
+
+  }
+  else {
+    swal("Error", "Please enter valid email address", "error");
+  }
+},false);
+
+
+document.getElementById('submit2').addEventListener('mousedown',function(){
+  var email = document.getElementById('email');
+  if (validateEmail(email)){
+      
+    ajax.send('email='+email.value);
+
+  }
+  else {
+    swal("Error", "Please enter valid email address", "error");
+  }
+},false);
+
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131360749-1"></script>
 <script>
@@ -1106,6 +1125,8 @@ FOOTER
 
   gtag('config', 'UA-131360749-1');
 </script>
+
+
 
 <!-- start ConvertFox JS code-->
 <script>
