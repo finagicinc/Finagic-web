@@ -1091,7 +1091,7 @@ function validateEmail(emailField){
 
     http.onreadystatechange = function() {//Call a function when the state changes.
       if(http.readyState == 4 && http.status == 200) {
-        
+
         swal("Thanks", "We will notify you when Finagic is live. In the meantime, reach out to us at hello@finagic.com for any questions you may have.", "success");
         document.getElementById('submit2').setText = "Get An Invite";
         document.getElementById('invite').setText = "Get An Invite";
@@ -1104,10 +1104,10 @@ function validateEmail(emailField){
 document.getElementById('invite').addEventListener('mousedown',function(){
   var email = document.getElementById('intro-email');
   if (validateEmail(email)){
-      
+    document.getElementById('submit2').setText = "Inviting ...";  
     sendpost(email.value);
     email.value = "";
-    document.getElementById('submit2').setText = "Inviting ...";
+    
 
   }
   else {
@@ -1119,10 +1119,10 @@ document.getElementById('invite').addEventListener('mousedown',function(){
 document.getElementById('submit2').addEventListener('mousedown',function(){
   var email = document.getElementById('email');
   if (validateEmail(email)){
-      
+    document.getElementById('submit2').setText = "Inviting ...";  
     sendpost(email.value);
     email.value = "";
-    document.getElementById('submit2').setText = "Inviting ...";
+    
 
 
   }
