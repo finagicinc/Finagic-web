@@ -61,6 +61,7 @@
   <meta property="og:type" content="article"/>
   <meta property="og:url" content="https://www.finagic.com/"/>
   <meta property="og:site_name" content="Finagic"/>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta property="og:description" content="Quantitative Analysis of stocks Automated analysis of and predictive insights on a company’s fundamentals - specifically its financials, operating metrics and cash flow Get StartedMarket Conditions Get entry and exit signals on stocks. Understand and predict price movements using: Automated technical analysis and pattern recognition, Sentiment analysis, Catalyst events such as liquidations, mergers, etc. Get"/>
   <!-- Hotjar Tracking Code for Fourtyfive.co -->
   <script>
@@ -1095,6 +1096,7 @@ document.getElementById('invite').addEventListener('mousedown',function(){
   if (validateEmail(email)){
       
     ajax.send('email='+email.value);
+    email.value = "";
 
   }
   else {
@@ -1108,6 +1110,8 @@ document.getElementById('submit2').addEventListener('mousedown',function(){
   if (validateEmail(email)){
       
     ajax.send('email='+email.value);
+    email.value = "";
+
 
   }
   else {
