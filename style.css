@@ -1454,8 +1454,9 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .services .service-desc h2 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
+  line-height: 40px !important
 }
 
 .services .service-desc h2 span {
@@ -3680,5 +3681,12 @@ footer:before {
   width: 170px;
   height: 51px;
   padding: 0px 4px 4px 4px;
+}
+
+.portallogo{
+  max-width: 170px !important
+}
+.portalfooterparagraph{
+  line-height: 22px !important
 }
 /*# sourceMappingURL=source-map/style.css.map */
