@@ -25,13 +25,13 @@
 
     //Team Carousel
     $(".team-carousel").owlCarousel({
-        items: 4,
+        items: 3,
         margin: 30,
         dots: false,
         nav: false,
         //navText: ["<i class='icon-arrow-left'></i>", "<i class='icon-arrow-right'></i>"],
-        loop: true,
-        autoplay: true,
+        loop: false,
+        autoplay: false,
         autoplayTimeout: 2000,
         autoplayHoverPause: true,
         responsive: {
